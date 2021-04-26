@@ -1,6 +1,3 @@
-# Video
-
-https://www.youtube.com/watch?v=QtiYGKyRUIk
 
 # Selenium testing
 
@@ -209,13 +206,3 @@ With this function we can write shorter our test case.
     Assert.assertTrue(bodyElemnet.getText().contains("found"));
     Assert.assertTrue(bodyElemnet.getText().contains("For Students"));
 ```
-
-
-
-# Task
-
-- Attendance
-- Open the http://selenium.thinkcode.se page with selenium
-- Open the request password example by clicking onto the "Request password - fill out and submit a form" link. This click has to be done by the Selenium, so do not get directly the http://selenium.thinkcode.se/requestPassword url.
-- Request a new password on the example page. Check the printed username is correct or not.
-
